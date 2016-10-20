@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="100" height="100" tilewidth="426" tileheight="312" nextobjectid="1">
+ <tileset firstgid="1" name="Ground" tilewidth="430" tileheight="316" tilecount="5" columns="0">
+  <tile id="0">
+   <image width="430" height="316" source="/gfx/Landscape_G1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="430" height="316" source="/gfx/Landscape_G2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="430" height="316" source="/gfx/Landscape_G3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="430" height="316" source="/gfx/Landscape_G4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="428" height="314" source="/gfx/Landscape_G5.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="6" name="Water" tilewidth="430" tileheight="316" tilecount="14" columns="0">
+  <tile id="0">
+   <image width="430" height="316" source="/gfx/Landscape_W01.png"/>
+  </tile>
+  <tile id="1">
+   <image width="428" height="314" source="/gfx/Landscape_W02.png"/>
+  </tile>
+  <tile id="2">
+   <image width="430" height="316" source="/gfx/Landscape_W03.png"/>
+  </tile>
+  <tile id="3">
+   <image width="428" height="314" source="/gfx/Landscape_W04.png"/>
+  </tile>
+  <tile id="4">
+   <image width="430" height="316" source="/gfx/Landscape_W10.png"/>
+  </tile>
+  <tile id="5">
+   <image width="430" height="316" source="/gfx/Landscape_W11.png"/>
+  </tile>
+  <tile id="6">
+   <image width="430" height="316" source="/gfx/Landscape_W12.png"/>
+  </tile>
+  <tile id="7">
+   <image width="430" height="316" source="/gfx/Landscape_W13.png"/>
+  </tile>
+  <tile id="8">
+   <image width="428" height="314" source="/gfx/Landscape_W20.png"/>
+  </tile>
+  <tile id="9">
+   <image width="428" height="314" source="/gfx/Landscape_W21.png"/>
+  </tile>
+  <tile id="10">
+   <image width="430" height="316" source="/gfx/Landscape_W22.png"/>
+  </tile>
+  <tile id="11">
+   <image width="430" height="316" source="/gfx/Landscape_W22S2.png"/>
+  </tile>
+  <tile id="12">
+   <image width="428" height="314" source="/gfx/Landscape_W23.png"/>
+  </tile>
+  <tile id="13">
+   <image width="428" height="314" source="/gfx/Landscape_W24.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="20" name="Forest" tilewidth="430" tileheight="316" tilecount="13" columns="0">
+  <tile id="18">
+   <image width="430" height="316" source="/gfx/Landscape_F1_new.png"/>
+  </tile>
+  <tile id="19">
+   <image width="430" height="316" source="/gfx/Landscape_F2_new.png"/>
+  </tile>
+  <tile id="20">
+   <image width="430" height="316" source="/gfx/Landscape_F3_new.png"/>
+  </tile>
+  <tile id="21">
+   <image width="430" height="316" source="/gfx/Landscape_F4_new.png"/>
+  </tile>
+  <tile id="22">
+   <image width="430" height="316" source="/gfx/Landscape_F11_new.png"/>
+  </tile>
+  <tile id="23">
+   <image width="430" height="316" source="/gfx/Landscape_F12.png"/>
+  </tile>
+  <tile id="24">
+   <image width="430" height="316" source="/gfx/Landscape_F13.png"/>
+  </tile>
+  <tile id="25">
+   <image width="430" height="316" source="/gfx/Landscape_F14.png"/>
+  </tile>
+  <tile id="26">
+   <image width="430" height="316" source="/gfx/Landscape_F15.png"/>
+  </tile>
+  <tile id="27">
+   <image width="430" height="316" source="/gfx/Landscape_F21.png"/>
+  </tile>
+  <tile id="28">
+   <image width="430" height="316" source="/gfx/Landscape_F22.png"/>
+  </tile>
+  <tile id="29">
+   <image width="430" height="316" source="/gfx/Landscape_F23.png"/>
+  </tile>
+  <tile id="30">
+   <image width="430" height="316" source="/gfx/Landscape_F24.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="51" name="Mountains" tilewidth="430" tileheight="316" tilecount="8" columns="0">
+  <tile id="0">
+   <image width="430" height="316" source="/gfx/Landscape_M01.png"/>
+  </tile>
+  <tile id="1">
+   <image width="430" height="316" source="/gfx/Landscape_M02.png"/>
+  </tile>
+  <tile id="2">
+   <image width="430" height="316" source="/gfx/Landscape_M03.png"/>
+  </tile>
+  <tile id="3">
+   <image width="430" height="316" source="/gfx/Landscape_M04.png"/>
+  </tile>
+  <tile id="4">
+   <image width="430" height="316" source="/gfx/Landscape_M11.png"/>
+  </tile>
+  <tile id="5">
+   <image width="430" height="316" source="/gfx/Landscape_M12.png"/>
+  </tile>
+  <tile id="6">
+   <image width="430" height="316" source="/gfx/Landscape_M13.png"/>
+  </tile>
+  <tile id="7">
+   <image width="430" height="316" source="/gfx/Landscape_M14.png"/>
+  </tile>
+ </tileset>
+ <layer name="Слой тайлов 1" width="100" height="100" offsetx="5117.58" offsety="6058.79">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+</map>
